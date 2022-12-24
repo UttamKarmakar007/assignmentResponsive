@@ -1,0 +1,659 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3a9bc8;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-heading {
+    padding: 20px;
+    color: #f4fbfe;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+.contact-us {
+    padding: 10px 15px;
+    border: 2px solid #f4fbfe;
+    color: #f4fbfe;
+    border-radius: 7px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.contact-us:hover {
+    border: 2px solid #686868; 
+    color: #686868;
+    font-weight: 700;
+    background-color: #329dd7;
+}
+
+.footer {
+    background-color: #242424;
+}
+
+.footer-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1200px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.navigation {
+    padding: 25px;
+    padding-top: 5px;
+}
+
+.h5-heading {
+    color: #f5fff9;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: fit-content;
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    border-bottom: 1px solid #1d9add;
+}
+
+
+
+.navigation-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-features {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 5px;
+    padding-top: 0;
+}
+
+.nav-features2 {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 5px;
+    padding-top: 0;
+    padding-left: 65px;
+}
+
+.icons {
+    color: #929195;
+}
+
+.location,
+.contact-number,
+.email-id {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.nav-anchor:hover {
+    color: #fff;
+    font-size: 14px;
+    transition: width .5s ease;
+}
+.nav-anchor.contact-anchor {
+    color: #929195;
+}
+.contact-anchor:hover{
+    color: #fff;
+}
+
+
+.nav-anchor,
+.contact-anchor {
+    text-decoration: none;
+    color: #797979;
+    font-family: 'Open sans';
+    font-weight: 200;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+
+.contact-container {
+    padding: 25px;
+    padding-top: 5px;
+}
+
+.cont-anch {
+    padding: 25px;
+    padding-top: 5px;
+}
+
+.location,
+.contact-number,
+.email-id {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.contact-anchor {
+    line-height: 12px;
+    padding-left: 0;
+}
+
+.cont-anch {
+    text-align: left;
+    color: #686868;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Open sans';
+    font-weight: 200;
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 17px;
+}
+
+.newsletter-container {
+    padding: 25px;
+    padding-top: 5px;
+}
+
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.email i {
+    position: absolute;
+}
+
+.icon {
+    padding: 9px;
+    min-width: 35px;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    padding-left: 40px;
+    text-align: left;
+    background-color: #353535;
+    border: none;
+    color: #a7a8aa;
+    font-family: 'Open sans';
+}
+.input:hover{
+    border: 0.5px solid  #3a9bc8;
+    
+}
+
+.subscribeBtn {
+    width: 30%;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #e5fdff;
+    background-color: #399ac7;
+    border: none;
+    font-family: 'Open sans';
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.connect-with-us {
+    display: flex;
+}
+
+.social-heading {
+    padding-left: 0;
+    padding-top: 3px;
+    padding-right: 15px;
+    color: #c8ccc9;
+    margin-top: 0;
+}
+
+
+.social-2 {
+    color: #f2fbfd;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.fa-facebook {
+    background: #38599d;
+    padding: 19%;
+}
+
+.fa-twitter {
+    background: #22a9d8;
+    padding: 15%;
+}
+
+.fa-youtube {
+    background: #c7302e;
+    padding: 15%;
+}
+
+.fa-linkedin {
+    background: #0f78a8;
+    padding: 0.4em;
+}
+
+.social-icons:hover {
+    opacity: 0.5;
+}
+
+.bottom-content {
+    background-color: #242424;
+    border-top: 2px solid #2b2b2b;
+}
+
+.foot-cont {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #686868;
+}
+
+/* .bottom-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 32%;
+    margin-right: 32%;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+.bottom-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 32%;
+    
+}
+
+.copyright {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copy-icon {
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-top: 19px;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*for 1024*/
+    .location {
+        padding-bottom: 5px;
+    }
+
+    .email-d {
+        margin-bottom: 30px;
+    }
+
+    .social {
+        padding-right: 10px;
+    }
+
+    .social-2 {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /*for 768*/
+    .header-heading {
+        padding-left: 5px;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+
+    .contact-us,
+    .h5-heading {
+        font-size: 15px;
+    }
+
+    .footer-content {
+        justify-content: left;
+        padding: 15px;
+    }
+
+    .navigation,
+    .contact-container {
+        padding: 10px;
+        width: 33%;
+    }
+
+    .contact-container {
+        padding-right: 5px;
+        padding-left: 25px;
+    }
+
+    .nav-features2 {
+        padding-left: 0;
+    }
+
+    .btn {
+        width: 80px;
+    }
+
+    .contact-us {
+        margin-right: 50px;
+    }
+
+    .icons {
+        font-size: 16px;
+    }
+
+    .contact-anchor {
+        line-height: 9px;
+    }
+
+    .social-heading {
+        font-size: 11px;
+    }
+
+    .newsletter-container {
+        padding: 10px;
+        padding-left: 5px;
+        width: 33%;
+    }
+
+    .social {
+        margin-right: 5px;
+    }
+
+    .fa-facebook {
+        padding: 25%;
+    }
+
+    .fa-twitter {
+        padding: 25%;
+    }
+
+    .fa-youtube {
+        padding: 20%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /*for 568*/
+
+
+    .footer-container {
+        display: flex;
+    }
+
+    .header-heading {
+        padding-left: 61px;
+    }
+
+    .contact-us {
+        /* margin-right: 58px; */
+        margin-left: 180px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer-container,
+    .contact-container,
+    .bottom-container {
+        width: 100%;
+    }
+
+    .nav-features {
+        padding-right: 130px;
+    }
+
+    .nav-features2 {
+        padding-left: 130px;
+    }
+
+    .header-details {
+        padding-left: 5px;
+        padding-top: 24px;
+        font-size: 20px;
+    }
+
+
+    .h5-heading {
+        margin: auto;
+        font-size: 17px;
+    }
+
+    .contact-content {
+        padding-left: 150px;
+        /* margin: auto; */
+        padding-top: 16px;
+    }
+
+    .contact-container {
+        padding-left: 150px;
+        padding: 5px 9px;
+        font-size: 14px;
+    }
+
+    .footer-content {
+        justify-content: left;
+        padding: 15px;
+    }
+
+    .navigation {
+        margin: auto;
+        padding: 15px;
+        width: 100%;
+        padding-bottom: 5px;
+
+    }
+
+    .newsletter-container {
+        padding: 40px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    .newsletter-content {
+        padding-top: 21px;
+    }
+
+    .connect-with-us {
+        display: flex;
+        padding-left: 108px;
+    }
+
+    .nav-features {
+        margin-bottom: 0;
+    }
+
+    .fa-facebook {
+        padding: 23%;
+    }
+
+    .fa-twitter {
+        padding: 20%;
+    }
+
+    .fa-youtube {
+        padding: 18%;
+    }
+
+    .bottom-container {
+        margin-left: 22%;
+        margin-right: 22%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .copy {
+        padding-top: 17px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+
+    /*for 375*/
+    .head-container,
+    .foot-container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .header-heading {
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+
+    .header-content {
+        justify-content: left;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .header-details {
+        font-size: 15px;
+        padding-top: 28px;
+        padding-right: 17px;
+        padding-left: 10px;
+    }
+
+    
+
+    .contact-us {
+        padding: 8px 15px;
+        margin-left: 90px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .h5-heading {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navigation,
+    .contact-container,
+    .newsletter-container {
+        padding: 10px;
+        width: 100%;
+        padding-bottom: 3px;
+    }
+
+    .nav-features {
+        padding-right: 0px;
+    }
+
+    .nav-features2 {
+        padding-left: 35%;
+    }
+
+    .contact-content {
+        padding-left: 25%;
+        padding-top: 16px;
+    }
+    .contact-container .h5-heading {
+        margin-left: 27%;
+    }
+
+    .connect-with-us {
+        padding-left: 12%;
+    }
+
+
+    .input,
+    .btn {
+        height: 24px;
+        padding: 3px;
+    }
+
+    .input {
+        padding-left: 27px;
+        padding-top: 1px;
+    }
+    .fa-facebook {
+        padding: 28%;
+    }
+
+    .fa-twitter {
+        padding: 24%;
+    }
+
+    .fa-youtube {
+        padding: 25%;
+    }
+
+    .fa-linkedin {
+        padding: 26%;
+    }
+
+    .bottom-container {
+        margin-left: 6%;
+        margin-right: 6%;
+        padding-left: 0px;
+        padding-right: -2px;
+    }
+
+    .copy-icon {
+        padding-top: 20px;
+    }
+}
